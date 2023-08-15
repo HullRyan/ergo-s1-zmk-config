@@ -1,11 +1,11 @@
 manifest:
   remotes:
-    - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
+    - name: DEV-OGRE
+      url-base: https://github.com/DEV-OGRE
   projects:
     - name: zmk
-      remote: zmkfirmware
-      revision: main
+      remote: DEV-OGRE
+      revision: Ergo_S-1_OE
       import: app/west.yml
   self:
     path: config
