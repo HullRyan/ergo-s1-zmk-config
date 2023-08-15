@@ -1,10 +1,10 @@
 manifest:
   remotes:
-    - name: DEV-OGRE
-      url-base: https://github.com/DEV-OGRE
+    - name: wizarddata
+      url-base: https://github.com/wizarddata
   projects:
     - name: zmk
-      remote: DEV-OGRE
+      remote: wizarddata
       revision: Ergo_S-1_OE
       import: app/west.yml
   self:
