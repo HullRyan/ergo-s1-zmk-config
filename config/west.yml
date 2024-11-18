@@ -4,15 +4,13 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: wizarddata
       url-base: https://github.com/wizarddata
-    - name: badjeff
-      url-base: https://github.com/badjeff
   projects:
-    - name: ergos1
-      remote: wizarddata
-      revision: Ergo_S-1_OE
-      import: app/west.yml
     - name: zmk
       remote: zmkfirmware
       revision: main
+      import: app/west.yml
+    # - name: zmk
+    #   remote: wizarddata
+    #   revision: Ergo_S-1_OE
   self:
     path: config
