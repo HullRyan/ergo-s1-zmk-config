@@ -11,7 +11,7 @@ manifest:
       remote: badjeff
       revision: pointers-with-input-processors
       import: app/west.yml
-    - name: zmk
+    - name: ergos1
       remote: wizarddata
       revision: Ergo_S-1_OE
   self:
