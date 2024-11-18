@@ -5,12 +5,13 @@ manifest:
     - name: wizarddata
       url-base: https://github.com/wizarddata
   projects:
-    - name: zmk
-      remote: zmkfirmware
-      revision: main
-      import: app/west.yml
     # - name: zmk
-    #   remote: wizarddata
-    #   revision: Ergo_S-1_OE
+    #   remote: zmkfirmware
+    #   revision: main
+    #   import: app/west.yml
+    - name: zmk
+      remote: wizarddata
+      revision: Ergo_S-1_OE
+      import: app/west.yml
   self:
     path: config
