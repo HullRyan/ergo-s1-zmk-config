@@ -8,8 +8,8 @@ manifest:
       url-base: https://github.com/badjeff
   projects:
     - name: zmk
-      remote: badjeff
-      revision: pointers-with-input-processors
+      remote: zmkfirmware
+      revision: main
       import: app/west.yml
     - name: ergos1
       remote: wizarddata
