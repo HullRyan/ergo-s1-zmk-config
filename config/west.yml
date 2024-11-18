@@ -1,11 +1,14 @@
 manifest:
   remotes:
-    - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
+    - name: wizarddata
+      url-base: https://github.com/wizarddata
   projects:
     - name: zmk
-      remote: zmkfirmware
-      revision: main
+      remote: badjeff
+      revision: pointers-with-input-processors
       import: app/west.yml
+    - name: zmk
+      remote: wizarddata
+      revision: Ergo_S-1_OE
   self:
     path: config
